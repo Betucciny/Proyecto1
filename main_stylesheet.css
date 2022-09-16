@@ -47,13 +47,22 @@ html,body{
     max-height: available;
     border-right-style: solid;
     font-size: xx-small;
+    margin-bottom: 280px;
 }
-.main {
+main {
+    align-items: center;
     padding: 10px;
     margin-left:280px;
     min-height:100%;
-
+    margin-bottom: 120px;
 }
+
+footer{
+    border-top-style: solid;
+    padding: 10px;
+    height: 120px;
+}
+
 figure{
     display: inline-block;
     margin: 0;
