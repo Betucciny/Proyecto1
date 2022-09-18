@@ -41,18 +41,18 @@ html,body{
 }
 .left {
     padding: 10px;
-    width: 250px;
+    width: 350px;
     float:left;
     min-height:100%;
     max-height: available;
     border-right-style: solid;
-    font-size: xx-small;
+    font-size: small;
     margin-bottom: 280px;
 }
 main {
     align-items: center;
     padding: 10px;
-    margin-left:280px;
+    margin-left:370px;
     min-height:100%;
     margin-bottom: 120px;
 }
@@ -77,8 +77,20 @@ figure{
 }
 
 
-/* No se como hacer estos valores de imagen a una clase width="240" height="160" */
 img.lefti{
     width: 100%; 
     height: auto;
+}
+
+.fa-star{
+    content:"\f005"
+}
+
+.fa{
+    display:inline-block;
+    font:normal normal normal 14px/1 FontAwesome;
+    font-size:inherit;
+    text-rendering:auto;
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing:grayscale
 }
