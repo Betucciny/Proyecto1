@@ -30,6 +30,7 @@ html,body{
     overflow:hidden;
 }
 .top {
+    position: fixed;
     display: flex;
     top:0;
     height: 92px;
@@ -47,20 +48,26 @@ html,body{
     max-height: available;
     border-right-style: solid;
     font-size: small;
-    margin-bottom: 280px;
+    margin-bottom: 85px;
 }
 main {
-    align-items: center;
+    margin-top: 92px;
+    text-align: center;
     padding: 10px;
-    margin-left:370px;
+    margin-left:380px;
     min-height:100%;
-    margin-bottom: 120px;
+    margin-bottom: 80px;
 }
 
 footer{
+    background-color: white;
+    position: fixed;
+    bottom: 0;
     border-top-style: solid;
-    padding: 10px;
-    height: 120px;
+    padding-left: 10px;
+    height: 80px;
+    min-height: available;
+    width: 100%;
 }
 
 figure{
