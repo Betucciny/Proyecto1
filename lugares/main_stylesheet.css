@@ -1,0 +1,84 @@
+html,
+body {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    margin: 0;
+}
+
+#pag {
+    font-size: xx-large;
+}
+
+.logo-container {
+    padding: 10px 20px;
+    margin: auto 0;
+}
+
+.nav {
+    color:white;
+    margin: auto 30px;
+    padding: 20px;
+    font-size: xx-large;
+
+}
+
+html,body{
+    height:100%;
+}
+
+.wraper{
+    height:100%;
+    overflow:hidden;
+}
+.top {
+    display: flex;
+    top:0;
+    height: 92px;
+    justify-content: space-between;
+    background-color: #00b3b7;
+    color: #fff;
+    width: 100%;
+    overflow: hidden;
+}
+.left {
+    padding: 10px;
+    width: 250px;
+    float:left;
+    min-height:100%;
+    max-height: available;
+    border-right-style: solid;
+    font-size: xx-small;
+    margin-bottom: 280px;
+}
+main {
+    align-items: center;
+    padding: 10px;
+    margin-left:280px;
+    min-height:100%;
+    margin-bottom: 120px;
+}
+
+footer{
+    border-top-style: solid;
+    padding: 10px;
+    height: 120px;
+}
+
+figure{
+    display: inline-block;
+    margin: 0;
+}
+
+.center{
+    justify-content: center;
+}
+
+.spaces{
+    line-height: 25px;
+}
+
+
+/* No se como hacer estos valores de imagen a una clase width="240" height="160" */
+img.lefti{
+    width: 100%; 
+    height: auto;
+}
