@@ -36,22 +36,24 @@ html,body{
     width: 100%;
     overflow: hidden;
 }
-.left {
+
+.right {
     padding: 10px;
-    width: 250px;
-    float:left;
+    width: 400px;
+    float:right;
     min-height:100%;
     max-height: available;
-    border-right-style: solid;
+    border-left-style: solid;
     font-size: small;
-    margin-bottom: 85px;
+    margin-bottom: 80px;
     text-align: justify-all;
 }
+
 main {
     margin-top: 92px;
-    text-align: center;
+    text-align: justify-all;
     padding: 10px;
-    margin-left:280px;
+    margin-right:420px;
     min-height:100%;
     margin-bottom: 80px;
 }
@@ -69,17 +71,13 @@ footer{
 
 figure{
     display: inline-block;
-    margin: 0;
 }
 
 .center{
-    justify-content: center;
+    text-align: center;
+    /*justify-content: center;*/
 }
 
 .spaces{
     line-height: 25px;
-}
-
-.mosaic{
-    padding: 15px;
 }

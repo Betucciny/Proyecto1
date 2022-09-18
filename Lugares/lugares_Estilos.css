@@ -49,10 +49,11 @@ html,body{
     border-right-style: solid;
     font-size: small;
     margin-bottom: 85px;
+    text-align: justify-all;
 }
 main {
     margin-top: 92px;
-    text-align: center;
+    text-align: justify-all;
     padding: 10px;
     margin-left:380px;
     min-height:100%;

@@ -47,11 +47,12 @@ html,body{
     border-left-style: solid;
     font-size: small;
     margin-bottom: 80px;
+    text-align: justify-all;
 }
 
 main {
     margin-top: 92px;
-    text-align: center;
+    text-align: justify-all;
     padding: 10px;
     margin-right:420px;
     min-height:100%;
@@ -71,7 +72,6 @@ footer{
 
 figure{
     display: inline-block;
-    margin: 0;
 }
 
 .center{
@@ -85,8 +85,10 @@ figure{
 
 .mapag{
     padding: 3px;
+    text-align: center;
 }
 .mapag iframe{
+
     width: 80%;
     height: 600px;
 }
