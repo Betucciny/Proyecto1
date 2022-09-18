@@ -1,3 +1,4 @@
+
 html,
 body {
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
@@ -36,23 +37,25 @@ html,body{
     width: 100%;
     overflow: hidden;
 }
-.left {
+
+.right {
     padding: 10px;
-    width: 250px;
-    float:left;
+    width: 400px;
+    float:right;
     min-height:100%;
     max-height: available;
-    border-right-style: solid;
+    border-left-style: solid;
     font-size: small;
     margin-bottom: 80px;
 }
+
 main {
     margin-top: 92px;
     text-align: center;
     padding: 10px;
-    margin-left:280px;
+    margin-right:420px;
     min-height:100%;
-    margin-bottom: 80px;
+
 }
 
 footer{
@@ -72,9 +75,27 @@ figure{
 }
 
 .center{
+    text-align: center;
     justify-content: center;
 }
 
 .spaces{
     line-height: 25px;
+}
+
+.mapag{
+    padding: 3px;
+}
+.mapag iframe{
+    width: 100%;
+    height: 600px;
+}
+
+table, th, td{
+    text-align-all: center;
+    width: available;
+    border-style: outset;
+    padding: 8px;
+    margin-left: auto;
+    margin-right: auto;
 }
