@@ -176,3 +176,39 @@ main h2{
 #TCLocal{
     background-image: url('./images/SitiosComida/TacosCampechanos_local.jpg');
 }
+
+#EsLogo{
+    background-image: url('./images/SitiosComida/LaEsquina_logo.jpg')
+}
+
+#EsPlat{
+    background-image: url('./images/SitiosComida/LaEsquina_menu.jpg')
+}
+
+#EsLocal{
+    background-image: url('./images/SitiosComida/LaEsquina_local.jpg')
+}
+
+#LobLogo{
+    background-image: url('./images/SitiosComida/ElLobo2_logo.jpg')
+}
+
+#LobPlat{
+    background-image: url('./images/SitiosComida/ElLobo2_menu.jpg')
+}
+
+#LobLocal{
+    background-image: url('./images/SitiosComida/ElLobo2_local.jpg')
+}
+
+#CemLogo{
+    background-image: url('./images/SitiosComida/CemitasSandy_logo.jpg')
+}
+
+#CemPlat{
+    background-image: url('./images/SitiosComida/CemitasSandy_menu.jpg')
+}
+
+#CemLocal{
+    background-image: url('./images/SitiosComida/CemitasSandy_local.jpg')
+}
