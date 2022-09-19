@@ -81,3 +81,7 @@ figure{
 .spaces{
     line-height: 25px;
 }
+
+a {
+    text-decoration: none;
+}

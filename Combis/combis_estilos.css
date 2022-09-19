@@ -105,3 +105,7 @@ table, th, td{
 ul, ol{
     padding: 15px;
 }
+
+a {
+    text-decoration: none;
+}
