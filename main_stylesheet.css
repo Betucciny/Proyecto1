@@ -83,3 +83,7 @@ figure{
 .mosaic{
     padding: 15px;
 }
+
+a {
+    text-decoration: none;
+}
