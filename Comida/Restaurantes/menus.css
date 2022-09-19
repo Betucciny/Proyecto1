@@ -1,0 +1,143 @@
+body {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    margin: 0;
+}
+
+main {
+    margin-top: 92px;
+    text-align: center;
+    padding: 10px;
+    margin-right:420px;
+    min-height:100%;
+    margin-bottom: 80px;
+}
+
+footer{
+    background-color: white;
+    position: fixed;
+    bottom: 0;
+    border-top-style: solid;
+    padding-left: 10px;
+    height: 80px;
+    min-height: available;
+    width: 100%;
+}
+
+figure{
+    display: inline-block;
+    margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+.top {
+    display: flex;
+    top:0;
+    height: 92px;
+    justify-content: space-between;
+    background-color: #00b3b7;
+    color: #fff;
+    width: 100%;
+    overflow: hidden;
+}
+
+#pag {
+    font-size: xx-large;
+}
+
+.logo-container {
+    padding: 10px 20px;
+    margin: auto 0;
+}
+
+.nav {
+    color:white;
+    margin: auto 30px;
+    padding: 20px;
+    font-size: xx-large;
+}
+
+.wraper{
+    height:100%;
+    overflow:hidden;
+}
+
+.right {
+    padding: 10px;
+    width: 400px;
+    float:right;
+    min-height:100%;
+    max-height: available;
+    border-left-style: solid;
+    font-size: small;
+    margin-bottom: 80px;
+}
+
+/*CSS Especifico para la pagina*/
+
+main h2{
+  text-align: center;
+}
+
+.contenedor-top {
+	width: 90%;
+	max-width: 1200px;
+	margin: auto;
+	padding: 40px 0;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  gap: 20px;
+}
+
+.card {
+	border-radius: 10px;
+	min-height: 200px;
+	font-weight: bold;
+	padding: 20px;
+	position: relative;
+	overflow: visible;
+	background-size: cover;
+	background-position: center center;
+}
+
+.card .textos {
+	height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card h3{
+  text-align: center;
+  color: white;
+}
+
+.contenedor-logo {
+  border-radius: 10px;
+  height: auto;
+  width: auto;
+  grid-column: 2;
+}
+
+.informacion{
+  text-align: center;
+}
+
+.contenedor-down {
+  align-items: center;
+	width: 90%;
+	max-width: 1200px;
+	margin: auto;
+	padding: 40px 0;
+  display: grid;
+  gap: 20px;
+}
+
+.contenedor-imagenes {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
