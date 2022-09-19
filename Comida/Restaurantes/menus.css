@@ -140,3 +140,15 @@ main h2{
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
 }
+
+#TazLogo{
+    background-image: url('./images/SitiosComida/TacosTaz_logo.jpg');
+}
+
+#TazMenu{
+    background-image: url('./images/SitiosComida/TacosTaz_menu.jpg');
+}
+
+#TazLocal{
+    background-image: url('./images/SitiosComida/TacosTaz_local.jpg');
+}
