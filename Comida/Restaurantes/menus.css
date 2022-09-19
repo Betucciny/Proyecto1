@@ -152,3 +152,27 @@ main h2{
 #TazLocal{
     background-image: url('./images/SitiosComida/TacosTaz_local.jpg');
 }
+
+#TzLogo{
+    background-image: url('./images/SitiosComida/Tzopelli_logo.jpg');
+}
+
+#TzPlat{
+    background-image: url('./images/SitiosComida/Tzopelli_menu.jpg');
+}
+
+#TzLocal{
+    background-image: url('./images/SitiosComida/Tzopelli_local.jpg');
+}
+
+#TCLogo{
+    background-image: url('./images/SitiosComida/TacosCampechanos_logo.jpg');
+}
+
+#TCPlat{
+    background-image: url('./images/SitiosComida/TacosCampechanos_menu.jpg');
+}
+
+#TCLocal{
+    background-image: url('./images/SitiosComida/TacosCampechanos_local.jpg');
+}
