@@ -1,10 +1,57 @@
+html,
 body {
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
     margin: 0;
 }
 
+#pag {
+    font-size: xx-large;
+}
+
+.logo-container {
+    padding: 10px 20px;
+    margin: auto 0;
+}
+
+.nav {
+    color:white;
+    margin: auto 30px;
+    padding: 20px;
+    font-size: xx-large;
+
+}
+
+html,body{
+    height:100%;
+}
+
+.top {
+    position: fixed;
+    display: flex;
+    top:0;
+    height: 92px;
+    justify-content: space-between;
+    background-color: #00b3b7;
+    color: #fff;
+    width: 100%;
+    overflow: hidden;
+}
+
+.right {
+    padding: 10px;
+    width: 400px;
+    float:right;
+    min-height:100%;
+    max-height: available;
+    border-left-style: solid;
+    font-size: small;
+    margin-bottom: 80px;
+    text-align: justify-all;
+}
+
 main {
-    text-align: center;
+    margin-top: 92px;
+    text-align: justify-all;
     padding: 10px;
     margin-right:420px;
     min-height:100%;
@@ -24,55 +71,15 @@ footer{
 
 figure{
     display: inline-block;
-    margin: 0;
 }
 
-a {
-  text-decoration: none;
+.center{
+    text-align: center;
+    justify-content: center;
 }
 
-
-.top {
-    display: flex;
-    top:0;
-    height: 92px;
-    justify-content: space-between;
-    background-color: #00b3b7;
-    color: #fff;
-    width: 100%;
-    overflow: hidden;
-}
-
-#pag {
-    font-size: xx-large;
-}
-
-.logo-container {
-    padding: 10px 20px;
-    margin: auto 0;
-}
-
-.nav {
-    color:white;
-    margin: auto 30px;
-    padding: 20px;
-    font-size: xx-large;
-}
-
-.wraper{
-    height:100%;
-    overflow:hidden;
-}
-
-.right {
-    padding: 10px;
-    width: 400px;
-    float:right;
-    min-height:100%;
-    max-height: available;
-    border-left-style: solid;
-    font-size: small;
-    margin-bottom: 80px;
+.spaces{
+    line-height: 25px;
 }
 
 /*CSS Especifico para la pagina*/
@@ -139,6 +146,11 @@ main h2{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
+}
+
+strong{
+    color: white;
+    background-color: darkcyan;
 }
 
 #TazLogo{
