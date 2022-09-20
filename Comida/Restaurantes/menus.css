@@ -82,6 +82,10 @@ figure{
     line-height: 25px;
 }
 
+a{
+    text-decoration: none;
+}
+
 /*CSS Especifico para la pagina*/
 
 main h2{
